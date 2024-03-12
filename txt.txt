@@ -1,0 +1,34 @@
+const addEmployee = async () => {
+  await database.write(async () => {
+    Students.forEach(async (student: any) => {
+      await db.create((newEmployee:any) => {
+        newEmployee.student_id = student.student_id
+        newEmployee.first_name = student.first_name
+        newEmployee.last_name = student.last_name
+        newEmployee.age = student.age
+        newEmployee.email = student.email
+        newEmployee.gmail = student.gmail
+        newEmployee.major = student.major
+        newEmployee.gpa = student.gpa
+        newEmployee.enrollment_date = student.enrollment_date
+        newEmployee.graduation_date = student.graduation_date
+        newEmployee.advisor = student.advisor
+        newEmployee.tuition_paid = student.tuition_paid
+        newEmployee.class_rank = student.class_rank
+        newEmployee.student_activities = student.student_activities
+        newEmployee.library_books_checked_out = student.library_books_checked_out
+        newEmployee.housing_status = student.housing_status
+      });
+    });
+  }).then(() => {
+    console.log('success')
+  }).catch((err: any) => {
+    console.log('err', err)
+  })
+}
+
+useEffect(() => {
+  // addEmployee()
+}, [])
+
+

@@ -1,0 +1,192 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.watermelonedb"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:2:5-67
+11-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:3:5-80
+12-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:3:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:4:5-80
+13-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:4:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:5:5-65
+14-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:5:22-62
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:6:5-70
+15-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:6:22-68
+16    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+16-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:7:5-79
+16-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:7:22-77
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:8:5-78
+17-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:8:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:9:5-75
+18-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:9:22-73
+19    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+19-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:10:5-78
+19-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:10:22-76
+20    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+20-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:11:5-75
+20-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:11:22-73
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:12:5-67
+21-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:12:22-65
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:13:5-65
+22-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:13:22-63
+23    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+23-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:14:5-80
+23-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:14:22-78
+24    <uses-permission android:name="android.permission.BLUETOOTH" />
+24-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:15:5-67
+24-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:15:22-65
+25    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+25-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:16:5-73
+25-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:16:22-71
+26
+27    <queries>
+27-->[:react-native-image-crop-picker] C:\project\WaterMeloneDb\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-11:15
+28        <intent>
+28-->[:react-native-image-crop-picker] C:\project\WaterMeloneDb\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-10:18
+29            <action android:name="android.media.action.IMAGE_CAPTURE" />
+29-->[:react-native-image-crop-picker] C:\project\WaterMeloneDb\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-73
+29-->[:react-native-image-crop-picker] C:\project\WaterMeloneDb\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:21-70
+30        </intent>
+31    </queries>
+32    <!--
+33    This manifest file is used only by Gradle to configure debug-only capabilities
+34    for React Native Apps.
+35    -->
+36    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+36-->[com.facebook.react:react-android:0.73.0] C:\Users\heang\.gradle\caches\transforms-3\9e3fbd243e57d27f13725d9865564577\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:16:5-78
+36-->[com.facebook.react:react-android:0.73.0] C:\Users\heang\.gradle\caches\transforms-3\9e3fbd243e57d27f13725d9865564577\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:16:22-75
+37
+38    <permission
+38-->[androidx.core:core:1.9.0] C:\Users\heang\.gradle\caches\transforms-3\9f9f3fd1e16439525052379f73eb363c\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+39        android:name="com.watermelonedb.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+39-->[androidx.core:core:1.9.0] C:\Users\heang\.gradle\caches\transforms-3\9f9f3fd1e16439525052379f73eb363c\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+40        android:protectionLevel="signature" />
+40-->[androidx.core:core:1.9.0] C:\Users\heang\.gradle\caches\transforms-3\9f9f3fd1e16439525052379f73eb363c\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+41
+42    <uses-permission android:name="com.watermelonedb.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+42-->[androidx.core:core:1.9.0] C:\Users\heang\.gradle\caches\transforms-3\9f9f3fd1e16439525052379f73eb363c\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+42-->[androidx.core:core:1.9.0] C:\Users\heang\.gradle\caches\transforms-3\9f9f3fd1e16439525052379f73eb363c\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+43
+44    <application
+44-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:19:5-38:19
+45        android:name="com.watermelonedb.MainApplication"
+45-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:20:7-38
+46        android:allowBackup="false"
+46-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:24:7-34
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.9.0] C:\Users\heang\.gradle\caches\transforms-3\9f9f3fd1e16439525052379f73eb363c\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+48        android:debuggable="true"
+49        android:extractNativeLibs="true"
+50        android:icon="@mipmap/ic_launcher"
+50-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:22:7-41
+51        android:label="@string/app_name"
+51-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:21:7-39
+52        android:roundIcon="@mipmap/ic_launcher_round"
+52-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:23:7-52
+53        android:theme="@style/AppTheme"
+53-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:25:7-38
+54        android:usesCleartextTraffic="true" >
+54-->C:\project\WaterMeloneDb\android\app\src\debug\AndroidManifest.xml:6:9-44
+55        <activity
+55-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:26:7-37:18
+56            android:name="com.watermelonedb.MainActivity"
+56-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:27:9-37
+57            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+57-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:29:9-118
+58            android:exported="true"
+58-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:32:9-32
+59            android:label="@string/app_name"
+59-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:28:9-41
+60            android:launchMode="singleTask"
+60-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:30:9-40
+61            android:windowSoftInputMode="adjustResize" >
+61-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:31:9-51
+62            <intent-filter>
+62-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:33:9-36:25
+63                <action android:name="android.intent.action.MAIN" />
+63-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:34:13-65
+63-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:34:21-62
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:35:13-73
+65-->C:\project\WaterMeloneDb\android\app\src\main\AndroidManifest.xml:35:23-70
+66            </intent-filter>
+67        </activity>
+68
+69        <provider
+69-->[:react-native-image-crop-picker] C:\project\WaterMeloneDb\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-24:20
+70            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+70-->[:react-native-image-crop-picker] C:\project\WaterMeloneDb\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-94
+71            android:authorities="com.watermelonedb.provider"
+71-->[:react-native-image-crop-picker] C:\project\WaterMeloneDb\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-60
+72            android:exported="false"
+72-->[:react-native-image-crop-picker] C:\project\WaterMeloneDb\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+73            android:grantUriPermissions="true" >
+73-->[:react-native-image-crop-picker] C:\project\WaterMeloneDb\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-47
+74            <meta-data
+74-->[:react-native-image-crop-picker] C:\project\WaterMeloneDb\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:78
+75                android:name="android.support.FILE_PROVIDER_PATHS"
+75-->[:react-native-image-crop-picker] C:\project\WaterMeloneDb\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-67
+76                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+76-->[:react-native-image-crop-picker] C:\project\WaterMeloneDb\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:17-75
+77        </provider>
+78
+79        <activity
+79-->[:react-native-image-crop-picker] C:\project\WaterMeloneDb\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-28:72
+80            android:name="com.yalantis.ucrop.UCropActivity"
+80-->[:react-native-image-crop-picker] C:\project\WaterMeloneDb\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-60
+81            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+81-->[:react-native-image-crop-picker] C:\project\WaterMeloneDb\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-69
+82        <activity
+82-->[com.facebook.react:react-android:0.73.0] C:\Users\heang\.gradle\caches\transforms-3\9e3fbd243e57d27f13725d9865564577\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:19:9-21:40
+83            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+83-->[com.facebook.react:react-android:0.73.0] C:\Users\heang\.gradle\caches\transforms-3\9e3fbd243e57d27f13725d9865564577\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:20:13-77
+84            android:exported="false" />
+84-->[com.facebook.react:react-android:0.73.0] C:\Users\heang\.gradle\caches\transforms-3\9e3fbd243e57d27f13725d9865564577\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:21:13-37
+85
+86        <provider
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\heang\.gradle\caches\transforms-3\32320e2e91731929086357e2ab1334d8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+87            android:name="androidx.startup.InitializationProvider"
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\heang\.gradle\caches\transforms-3\32320e2e91731929086357e2ab1334d8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+88            android:authorities="com.watermelonedb.androidx-startup"
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\heang\.gradle\caches\transforms-3\32320e2e91731929086357e2ab1334d8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+89            android:exported="false" >
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\heang\.gradle\caches\transforms-3\32320e2e91731929086357e2ab1334d8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+90            <meta-data
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\heang\.gradle\caches\transforms-3\32320e2e91731929086357e2ab1334d8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\heang\.gradle\caches\transforms-3\32320e2e91731929086357e2ab1334d8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+92                android:value="androidx.startup" />
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\heang\.gradle\caches\transforms-3\32320e2e91731929086357e2ab1334d8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+93            <meta-data
+93-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\heang\.gradle\caches\transforms-3\e69cf860b71ce40109b4fc64125425ef\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+94-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\heang\.gradle\caches\transforms-3\e69cf860b71ce40109b4fc64125425ef\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+95                android:value="androidx.startup" />
+95-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\heang\.gradle\caches\transforms-3\e69cf860b71ce40109b4fc64125425ef\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+96        </provider>
+97
+98        <meta-data
+98-->[com.facebook.soloader:soloader:0.10.5] C:\Users\heang\.gradle\caches\transforms-3\ffd3c2d03ae06731ddcbda89cc8df014\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+99            android:name="com.facebook.soloader.enabled"
+99-->[com.facebook.soloader:soloader:0.10.5] C:\Users\heang\.gradle\caches\transforms-3\ffd3c2d03ae06731ddcbda89cc8df014\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+100            android:value="false" />
+100-->[com.facebook.soloader:soloader:0.10.5] C:\Users\heang\.gradle\caches\transforms-3\ffd3c2d03ae06731ddcbda89cc8df014\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+101    </application>
+102
+103</manifest>

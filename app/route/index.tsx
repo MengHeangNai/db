@@ -6,6 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { NativeModules } from 'react-native';
 import Todo from '../screen/Todo/Todo';
 import MyTabs from './App_Tab';
+import Auth from '../screen/Auth/Auth';
 
 
 const Stack = createStackNavigator();
@@ -18,6 +19,7 @@ function RootStack() {
       screenOptions={{
         headerShown: false,
       }}>
+        {/* <Stack.Screen name="AUTH" component={Auth} /> */}
       <Stack.Screen name="APP_TAb" component={MyTabs} />
       <Stack.Screen name="TODO" component={Todo} />  
       <Stack.Screen name="HOME" component={HomeContainer} />

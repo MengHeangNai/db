@@ -8,6 +8,7 @@ INJECTED from C:\project\WaterMeloneDb\android\app\src\debug\AndroidManifest.xml
 MERGED from [com.facebook.react:flipper-integration:0.73.0] C:\Users\heang\.gradle\caches\transforms-3\4e199690119449f6ef99a8d3a34e26d4\transformed\jetified-flipper-integration-0.73.0-debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-vector-icons] C:\project\WaterMeloneDb\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:nozbe_watermelondb] C:\project\WaterMeloneDb\node_modules\@nozbe\watermelondb\native\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-async-storage_async-storage] C:\project\WaterMeloneDb\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-masked-view_masked-view] C:\project\WaterMeloneDb\node_modules\@react-native-masked-view\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-gesture-handler] C:\project\WaterMeloneDb\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-image-crop-picker] C:\project\WaterMeloneDb\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-31:12
@@ -250,6 +251,8 @@ MERGED from [:react-native-vector-icons] C:\project\WaterMeloneDb\node_modules\r
 MERGED from [:react-native-vector-icons] C:\project\WaterMeloneDb\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:nozbe_watermelondb] C:\project\WaterMeloneDb\node_modules\@nozbe\watermelondb\native\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:nozbe_watermelondb] C:\project\WaterMeloneDb\node_modules\@nozbe\watermelondb\native\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] C:\project\WaterMeloneDb\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] C:\project\WaterMeloneDb\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-masked-view_masked-view] C:\project\WaterMeloneDb\node_modules\@react-native-masked-view\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-masked-view_masked-view] C:\project\WaterMeloneDb\node_modules\@react-native-masked-view\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-gesture-handler] C:\project\WaterMeloneDb\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44

@@ -8,14 +8,15 @@ import Categories from '../model/categories';
 import { Employee } from '../model/employee.model';
 import Students from '../model/student';
 import InfoDB from '../model/infe.model';
+import MediaDB from '../model/media.model';
 
 const adapter = new SQLiteAdapter({
   schema,
-  // migrations,
+  migrations,
   dbName: 'Heang',
 });
 
 export const database = new Database({
   adapter,
-  modelClasses: [Categories, Employee,Students , InfoDB],
+  modelClasses: [Employee,Students , InfoDB,MediaDB],
 });

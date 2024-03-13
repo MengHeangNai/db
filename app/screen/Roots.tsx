@@ -1,8 +1,9 @@
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React, { Component } from 'react'
-import { addEmployee, addStudent } from '../store/info.store'
+import { addEmployee, addMedia, addStudent } from '../store/info.store'
 import { employee } from '../dummy/employee'
 import { Students } from '../dummy/student'
+import { Medai } from '../dummy/media'
 
 interface Props {
     
@@ -16,6 +17,9 @@ const Roots = (props: Props) => {
     </TouchableOpacity>
     <TouchableOpacity style={styles.button} onPress={()=>addStudent(Students)}>
       <Text style={styles.text}>Add Student</Text>
+    </TouchableOpacity>
+    <TouchableOpacity style={styles.button} onPress={()=>addMedia(Medai)}>
+      <Text style={styles.text}>Add Media</Text>
     </TouchableOpacity>
   </View>
   )

@@ -79,3 +79,25 @@ export const useInfo = () => {
 
   return infoQuery;
 };
+
+export const useMedia = () =>{
+  const queryClient = useQueryClient();
+
+  const mediaQuery = useQuery({
+    queryKey: ['media'],
+    queryFn: async () => {
+      const data = await database.get('media').query().fetch();
+      return data.flatMap((item: any) => item._raw);
+    },
+  });
+
+  useEffect(() => {
+    const unsubscribe = database.get('media').query().observe().subscribe((newData) => {
+      queryClient.setQueryData(['media'], newData.flatMap((item: any) => item._raw));
+    });
+
+    return () => unsubscribe.unsubscribe();
+  }, [queryClient]);
+
+  return mediaQuery;
+}

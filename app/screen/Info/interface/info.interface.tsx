@@ -1,12 +1,12 @@
 export type IInfo = {
-  first_name?: String,
-  last_name?: String,
-  age?: Number,
-  email?: String,
-  gender?: String,
-  address?: String,
-  phone_number?: String,
-  birthdate?: String,
+  first_name?: any,
+  last_name?: any,
+  age?: any,
+  email?: any,
+  gender?: any,
+  address?: any,
+  phone_number?: any,
+  birthdate?: any,
 };
 
 export type TInfoError = {

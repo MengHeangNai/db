@@ -46,6 +46,12 @@ export const TAB_DATA = {
     Icon: FontAwesome,
     iconName: 'info',
   },
+  MEDIA:{
+    label: 'Media',
+    name: 'MEDIA',
+    Icon: AntDesign,
+    iconName: 'camera',
+  },
 };
 
 function TabBar({state, descriptors, navigation}: any) {

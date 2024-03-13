@@ -81,3 +81,37 @@ export const addStudent = async (student: any[]) => {
       console.log('err', err);
     });
 };
+
+export const addMedia = async (media: any[]) => {
+  const db = database.get('media');
+  console.log('medai.slice(0,2)', media.slice(0,2))
+  await database
+    .write(async () => {
+      media.forEach(async media => {
+        await db.create((newMedia: any) => {
+          newMedia.user_id = media.user_id;
+          newMedia.username = media.username;
+          newMedia.full_name = media.full_name;
+          newMedia.email = media.email;
+          newMedia.birthdate = media.birthdate;
+          newMedia.location = media.location;
+          newMedia.bio = media.bio;
+          newMedia.followers_count = media.followers_count;
+          newMedia.following_count = media.following_count;
+          newMedia.profile_pic = media.profile_pic;
+          newMedia.post_count = media.post_count;
+          newMedia.last_post_date = media.last_post_date;
+          newMedia.is_verified = media.is_verified;
+          newMedia.interests = media.interests;
+          newMedia.account_creation_date = media.account_creation_date;
+        });
+      });
+    })
+    .then(() => {
+      console.log('success');
+      Alert.alert('Success', 'Media added successfully');
+    })
+    .catch((err: any) => {
+      console.log('err', err);
+    });
+}

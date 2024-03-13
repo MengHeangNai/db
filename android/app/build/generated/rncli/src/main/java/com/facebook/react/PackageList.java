@@ -13,6 +13,8 @@ import java.util.ArrayList;
 
 // @nozbe/watermelondb
 import com.nozbe.watermelondb.WatermelonDBPackage;
+// @react-native-async-storage/async-storage
+import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // @react-native-masked-view/masked-view
 import org.reactnative.maskedview.RNCMaskedViewPackage;
 // @shopify/flash-list
@@ -73,6 +75,7 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new WatermelonDBPackage(),
+      new AsyncStoragePackage(),
       new RNCMaskedViewPackage(),
       new ReactNativeFlashListPackage(),
       new RNGestureHandlerPackage(),

@@ -6,15 +6,8 @@ import {
 export default schemaMigrations({
   migrations: [
     {
-      toVersion: 40,
+      toVersion: 50,
       steps: [
-        addColumns({
-          table: 'categories',
-          columns: [
-            { name: 'sobrenome', type: 'string' },
-            { name: 'photo', type: 'string' }, // Ensure 'photo' column is added here
-          ],
-        }),
         addColumns({
           table: 'employees',
           columns: [
@@ -61,6 +54,26 @@ export default schemaMigrations({
             {name: 'address', type: 'string'},
             {name: 'phone_number', type: 'number'},
             {name: 'birthdate', type: 'string'},
+          ]
+        }),
+        addColumns({
+          table: 'media',
+          columns: [
+            {name: 'user_id', type: 'number'},
+            {name: 'username', type: 'string'},
+            {name: 'full_name', type: 'string'},
+            {name: 'email', type: 'string'},
+            {name: 'birthdate', type: 'string'},
+            {name: 'location', type: 'string'},
+            {name: 'bio', type: 'string'},
+            {name: 'followers_count', type: 'number'},
+            {name: 'following_count', type: 'number'},
+            {name: 'profile_pic', type: 'string'},
+            {name: 'post_count', type: 'number'},
+            {name: 'last_post_date', type: 'string'},
+            {name: 'is_verified', type: 'boolean'},
+            {name: 'interests', type: 'string'},
+            {name: 'account_creation_date', type: 'string'}
           ]
         })
       ],

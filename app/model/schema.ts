@@ -1,16 +1,8 @@
 import {appSchema, tableSchema} from '@nozbe/watermelondb/Schema';
 
 export default appSchema({
-  version: 39,
+  version: 50,
   tables: [
-    tableSchema({
-      name: 'categories',
-      columns: [
-        {name: 'name', type: 'string'},
-        {name: 'sobrenome', type: 'string'},
-        {name: 'photo', type: 'string'},
-      ],
-    }),
     tableSchema({
       name: 'employees',
       columns: [
@@ -57,6 +49,26 @@ export default appSchema({
         {name: 'address', type: 'string'},
         {name: 'phone_number', type: 'number'},
         {name: 'birthdate', type: 'string'},
+      ],
+    }),
+    tableSchema({
+      name: 'media',
+      columns: [
+        {name: 'user_id', type: 'number'},
+        {name: 'username', type: 'string'},
+        {name: 'full_name', type: 'string'},
+        {name: 'email', type: 'string'},
+        {name: 'birthdate', type: 'string'},
+        {name: 'location', type: 'string'},
+        {name: 'bio', type: 'string'},
+        {name: 'followers_count', type: 'number'},
+        {name: 'following_count', type: 'number'},
+        {name: 'profile_pic', type: 'string'},
+        {name: 'post_count', type: 'number'},
+        {name: 'last_post_date', type: 'string'},
+        {name: 'is_verified', type: 'boolean'},
+        {name: 'interests', type: 'string'},
+        {name: 'account_creation_date', type: 'string'},
       ],
     }),
   ],
